@@ -6,10 +6,9 @@ using System.Threading.Tasks;
 
 namespace Payments
 {
-    public interface IBankPayment
+    public interface IMobilePayment
     {
         int Amount();
-        string BankAccount();
+        string PhoneNumber();
     }
-
 }
